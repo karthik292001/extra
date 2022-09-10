@@ -16,3 +16,6 @@ li a{
     text-align: center;
     text-decoration: none;
 }
+.card{
+    float: right;
+}
