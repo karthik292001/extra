@@ -16,6 +16,22 @@ li a{
     text-align: center;
     text-decoration: none;
 }
-.card{
+nav{
+    width:100%;
+}
+nav .search input{
+    width: 100%;
+    padding:10px;
+    border:none;
+}
+nav .search .fa-search{
+    padding: 10px;
+    background-color: chocolate;
+}
+nav .search{
+    display:flex;
+}
+section .card{
     float: right;
+    border: none;
 }
