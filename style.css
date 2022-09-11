@@ -21,16 +21,16 @@ nav{
 }
 nav .search input{
     width: 100%;
-    padding:10px;
+    padding:8px;
     border:none;
 }
 nav .search .fa-search{
     padding: 10px;
     background-color: chocolate;
 }
-nav .search{
+/* nav .search{
     display:flex;
-}
+} */
 section .card{
     float: right;
     border: none;
