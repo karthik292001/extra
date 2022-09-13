@@ -11,20 +11,74 @@
     </head>
 <body>
         <nav class="navbar navbar-light bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand">
-            <img src="./images/logo.png" width="60%" height="50px">
-          </a>
-          <div class="search">
+         <div class="container-fluid">
+           <a class="navbar-brand" style="margin-bottom: 2%;">
+            <img src="./images/logo.png" width="100%" height="32px">
+           </a> 
+           <ul style="position:absolute; left:8%;">
+            <li>hi</li>
+           </ul> 
+           <div class="search">
             <input type="text">
-           <button><i class="fa fa-search" style="color:black;"></i></button>
-          </div>
-          <ul>
-            <li>Hello,sign in<br>Account & Lists</li>
+            <i class="fa fa-search" style="color:black;"></i>
+           </div>
+           <ul>
+            <li>Hello,sign in<br><a style="font-size: 12px;">Account & Lists</a></li>
             <li>Returns<br>& Orders</li>
-            <li><a><i class="fa fa-shopping-cart" style="font-size:32px"></i> Cart</a></li>
-          </ul>
-        </div>
+            <li><a style="font-size:13px ;"><i class="fa fa-shopping-cart" style="font-size:32px"></i> Cart</a></li>
+           </ul>
+         </div>
+        </nav>
+        
+        <nav class="navbar2">
+          <div>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header" style="font-size: 100px;">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+            </div>
+            <ul class="nav2">
+              
+              <li>All</li>
+              <li>Sell</li>
+              <li>Best sellers</li>
+              <li>Mobiles</li>
+              <li>customer service</li>
+              <li>Books</li>
+              <li>Today's Deals</li>
+              <li>Electronics</li>
+              <li>Fashion</li>
+<!--               
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" style="color: white;font-size: 12px;padding-top:1px;padding:1px;" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Prime
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <img src="./images/sublogo.jpg" alt="">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li> -->
+                <li>
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle"style="color: white;font-size: 12px;padding:1px;position:relative" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                    Prime
+                  </button>
+                  <ul class="dropdown-menu">
+                    <!-- <img src="./images/sublogo.jpg" alt="" width="10%"> -->
+                    <li><button class="dropdown-item" type="button">Action</button></li>
+                    <li><button class="dropdown-item" type="button">Another action</button></li>
+                    <li><button class="dropdown-item" type="button">Something else here</button></li>
+                  </ul>
+                </div>
+            </li>
+              <li>New Releases</li>
+              <li>Home & Kitchen</li>
+              <li>Amazon Pay</li>
+            </ul>
+          </div>
         </nav>
 
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
