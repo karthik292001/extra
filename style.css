@@ -10,7 +10,7 @@ li{
     color: white;
     padding-right: 22px;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 15px;
     padding-top: 2%;
 }
 li a{
@@ -61,6 +61,7 @@ nav .search .fa-search{
 .nav2 li
 {
    padding-right:20px;
+   padding-left: 0%;
    font-size: 14px; 
    padding-top: 12px;
    /* line-height: 14px; */
@@ -71,6 +72,5 @@ section .card{
 }
 .s{
     position: absolute;
-    top: 18%;
-    left: 8%;
+    left: 9.5%;
 }
