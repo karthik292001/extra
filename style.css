@@ -65,11 +65,28 @@ nav .search .fa-search{
    padding-top: 12px;
    /* line-height: 14px; */
 }
-section .card{
-    float: right;
-    border: none;
-}
 .s{
     position: absolute;
     left: 9.5%;
+}
+section .card{
+    float: left;
+    margin:40px;
+    padding: 20px;
+    
+}
+.card .card-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-section{
+    top: 70%;
+    position:relative;
+}
+#card4{
+  
+    width: 24%;
+    float: left;
+    top: 100%;
+    position: relative;
 }

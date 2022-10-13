@@ -14,9 +14,11 @@
         <nav class="navbar navbar-light bg-dark">
          <div class="container-fluid">
            <a class="navbar-brand">
-            <img src="./images/logo.png" width="6.3%" height="35px" style="left:1.2%;position: absolute;top: 19px;"><p style="color: white;font-size: 14px;position:absolute;left:7.5%;top: 20px;">.in</p>
+            <img src="./images/logo.png" width="6.3%" height="35px" style="left:1.2%;position:absolute;top:19px;">
+            <p style="color: white;font-size: 14px;position:absolute;left:7.5%;top: 20px;">.in</p>
            </a> 
            <ul class="s">
+            <i class="bi bi-geo-alt" style="font-size:1em;color:white;left:7.9%;position:absolute;top:30%;"></i>
             <li>Hello<br><a style="font-size:14px;">Select your address</a></li>
            </ul> 
            <div class="search">
@@ -25,15 +27,14 @@
            </div>
            <img src="./images/flag.jpg" alt="" width="1.4%" height="15.5px"style="position:absolute;left:76.8%;">
            <a class="nav-link dropdown-toggle" style="font-size:14px;color:#BBBBBB;padding-top:1%;left:77.5%;position: absolute;"></a>
-          
-           <ul>
-            <i class="bi bi-geo-alt" style="font-size:1em;color:white;left:10.3%;position:absolute;top:30%;"></i>
-            <li>Hello,sign in<br><a class="nav-link dropdown-toggle" style="font-size:14px;color: white;padding: 0%;">Account & Lists</a></li>
+          <ul>
+            <li>Hello,sign in<br><a class="nav-link dropdown-toggle" style="font-size:14px;color: white;padding: 0%;font:bold;">Account & Lists</a></li>
             <li>Returns<br><a style="font-size:14px ;">& Orders</a></li>
             <li><a style="font-size:14px ;"><i class="fa fa-shopping-cart" style="font-size:32px"></i>Cart</a></li>
            </ul>
          </div>
         </nav>
+
         <nav class="navbar2">
           <div class="nav2">
             <ul>
@@ -47,31 +48,6 @@
               <li>Today's Deals</li>
               <li>Electronics</li>
               <li>Fashion</li>
-<!--                   
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" style="color: white;font-size: 12px;padding-top:1px;padding:1px;" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Prime
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                    <img src="./images/sublogo.jpg" alt="">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </ul>
-                </li> -->
-                <!-- <li>
-                <div class="dropdown">
-                  <button class="btn btn-secondary dropdown-toggle"style="color: white;font-size: 12px;padding:1px;position:relative" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-                    Prime
-                  </button>
-                  <ul class="dropdown-menu">
-                    <img src="./images/sublogo.jpg" alt="" width="10%">
-                    <li><button class="dropdown-item" type="button">Action</button></li>
-                    <li><button class="dropdown-item" type="button">Another action</button></li>
-                    <li><button class="dropdown-item" type="button">Something else here</button></li>
-                  </ul>
-                </div>
-            </li> -->
               <li>
               <a class="nav-link dropdown-toggle" style="color: white;font-size: 14px;position:relative;top: 5%;padding:0%;" >
                 Prime
@@ -84,14 +60,8 @@
             </ul>
           </div>
         </nav>
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-        </div>
+   
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="./images/slide1.jpg" class="d-block w-100" alt="...">
@@ -109,16 +79,18 @@
             <img src="./images/slide5.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <section>
+
+
+      <section class="card-section" style="padding: ;">
        <div class="card" style="width: 18rem;">
           <h5 class="card-title">Now India will say "Bought it on Amazon!"</h5>
           <img src="./images/card1.jpg" class="card-img-top" alt="...">
@@ -140,47 +112,77 @@
         <a href="#">see all upcoming offers</a>
        </div>
      </div>
-     <div class="card" style="width: 18rem;">
+     <div class="card" id="" style="width: 18rem;">
       <h5 class="card-title">Grab the best deals before sale</h5>
-      <img src="./images/card3.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <a href="#">see all upcoming offers</a>
+      <button><a href="#">see all upcoming offers</a></button>
       </div>
      </div>
     </section>
-    <!-- <div class="row row-cols-1 row-cols-md-2 g-4" style="float: right;width: 24%;">
-      <div class="col">
-        <div class="card">
-          <img src="./images/img1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">This </p>
-          </div>
-        </div>
+
+    <section style="float:left;">
+    <div class="card" style="width: 18rem;">
+      <h5 class="card-title">Grab the best deals before sale</h5>
+      <img src="./images/card3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+       <a href="#">see all upcoming offers</a>
       </div>
-      <div class="col">
-        <div class="card">
-          <img src="./images/img2.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">This is</p>
-          </div>
-        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <h5 class="card-title">Grab the best deals before sale</h5>
+      <img src="./images/card3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+       <a href="#">see all upcoming offers</a>
       </div>
-      <div class="col">
-        <div class="card">
-          <img src="./images/img3.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">This is</p>
-          </div>
-        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <h5 class="card-title">Grab the best deals before sale</h5>
+      <img src="./images/card3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+       <a href="#">see all upcoming offers</a>
       </div>
-      <div class="col">
-        <div class="card">
-          <img src="./images/img4.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">This is </p>
-          </div>
-        </div>
-      </div> -->
+    </div>
+    <div class="card" style="width: 18rem;">
+      <h5 class="card-title">Grab the best deals before sale</h5>
+      <img src="./images/card3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+       <a href="#">see all upcoming offers</a>
+      </div>
+    </div>
+    </section>
+
+    <section style="float:left;">
+    <div class="card" style="width: 18rem;">
+      <h5 class="card-title">Grab the best deals before sale</h5>
+      <img src="./images/card3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+       <a href="#">see all upcoming offers</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <h5 class="card-title">Grab the best deals before sale</h5>
+      <img src="./images/card3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+       <a href="#">see all upcoming offers</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <h5 class="card-title">Grab the best deals before sale</h5>
+      <img src="./images/card3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+       <a href="#">see all upcoming offers</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <h5 class="card-title">Grab the best deals before sale</h5>
+      <img src="./images/card3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+       <a href="#">see all upcoming offers</a>
+      </div>
+    </div>
+    <section>
+
+
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
